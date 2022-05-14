@@ -467,6 +467,7 @@ margin-right: 0px;
 }  
 
 .active-btn {
+    border: none;
     border-radius: 4px;
     padding: 6px 22px;
     background-color:var(--team-backgound-color);
@@ -477,15 +478,18 @@ margin-right: 0px;
     line-height: 1.62;
     letter-spacing: 0.03em;
     cursor: pointer;
+
 }
 .active-btn.current {
     color: var(--accent-test-color); 
     background-color: var(--accent-color);
+   
 }
 .active-btn:hover,
 .active-btn:focus {
     background-color: var(--accent-color);
-    color:var(--accent-test-color);    
+    color:var(--accent-test-color);  
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 /* работы */
 
