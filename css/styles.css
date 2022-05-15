@@ -311,7 +311,7 @@ text-decoration: none;
     text-align: center;
     letter-spacing: 0.03em;
 } 
-.social-item .link {
+.team .link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -322,13 +322,13 @@ text-decoration: none;
     border-radius: 50%;
 
 }
-.social-item:hover .link,
-.social-item:focus .link{
+.team .link:hover,
+.team .link:focus {
     background-color: var(--accent-color);
 }
 
-.social-item .link:hover,
-.social-item .link:focus {
+.team .link:hover,
+.team .link:focus {
     fill: var(--accent-test-color);
 }
 
@@ -340,28 +340,23 @@ text-decoration: none;
 .clients {
     padding-top: 94px;
     padding-bottom: 94px;
-
 }
 
 .clients .list {
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .clients .item:not(:last-child) {
     margin-right: 30px;
 }
 
-.clients .item {
+.clients .link {
     display: flex;
     align-items: center;
     justify-content: center;
-     width: calc((100% - 150px) / 6);
-}
-.clients .link {
-    display: block;
-    padding: 16px 32px;
+    width: 170px;
+    height: 92px;
+
     fill: var(--icon-orignal-color);
     border: 1px solid var(--icon-orignal-color);
     border-radius: 4px;
@@ -479,11 +474,6 @@ margin-right: 0px;
     letter-spacing: 0.03em;
     cursor: pointer;
 
-}
-.active-btn.current {
-    color: var(--accent-test-color); 
-    background-color: var(--accent-color);
-   
 }
 .active-btn:hover,
 .active-btn:focus {
